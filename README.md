@@ -1,4 +1,4 @@
-Google-Translate-PHP
+Google-Translate-PHP [<img alt="SensioLabsInsight" src="https://insight.sensiolabs.com/projects/b80c185c-cfad-44e7-b7c8-9186ae895bb8/small.png" align="right">](https://insight.sensiolabs.com/projects/b80c185c-cfad-44e7-b7c8-9186ae895bb8)
 ====================
 
 [![Build Status](https://travis-ci.org/Stichoza/google-translate-php.svg?branch=master)](https://travis-ci.org/Stichoza/google-translate-php) [![Latest Stable Version](https://img.shields.io/packagist/v/Stichoza/google-translate-php.svg)](https://packagist.org/packages/stichoza/google-translate-php) [![Total Downloads](https://img.shields.io/packagist/dt/Stichoza/google-translate-php.svg)](https://packagist.org/packages/stichoza/google-translate-php) [![Downloads Month](https://img.shields.io/packagist/dm/Stichoza/google-translate-php.svg)](https://packagist.org/packages/stichoza/google-translate-php) [![Code Climate](https://img.shields.io/codeclimate/github/Stichoza/google-translate-php.svg)](https://codeclimate.com/github/Stichoza/google-translate-php) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Stichoza/google-translate-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Stichoza/google-translate-php/?branch=master)
@@ -96,3 +96,5 @@ You can still view usage docs for older (`~2.0`) versions [here](https://github.
 ## Disclaimer
 
 This package is developed for educational purposes only. Do not depend on this package as it may break anytime as it is based on "CURLing" the Google Translate website. Consider buying [Official Google Translate API](https://cloud.google.com/translate/) for other types of usage.
+
+Also, Google might ban your server IP or [requre to solve CAPTCHA](https://github.com/Stichoza/google-translate-php/issues/18) if you send unusual traffic (large amount of data/requests).
